@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bramaudi.my.id/terrabook/sitemap.xml

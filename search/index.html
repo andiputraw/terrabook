@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="shortcut icon" href="/terrabook/assets/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="/terrabook/assets/style.css">
+</head>
+<body>
+	<nav id="nav-header">
+		<button class="trigger" onclick="toggle('nav')"><span></span><span></span><span></span></button>
+		<ul class="nav-list hide" id="nav">
+			<li class="nav-item">
+				<a href="/terrabook/">Home</a>
+			</li>
+			<li class="nav-item">
+				<a href="/terrabook/posts/">Archive</a>
+			</li>
+			<li class="search">
+				<a href="/terrabook/search">Search</a>
+			</li>
+		</ul>
+	</nav>
+
+	<header style="background-image: url('/terrabook/assets/Hallow_background_3.jpg')">
+		<img src="/terrabook/assets/logo.png" class="logo">
+		<a class="title" href="/terrabook/">Terrabook</a>
+		<p class="description">" Terrabook website "</p>
+	</header>
+
+	<main>
+		<style type="text/css">
+	#search {
+		padding: 10px;
+		border: 1px solid #ddd;
+	}
+</style>
+
+<div class="info">
+	<input id="search" type="text" placeholder="Search by title" value="" />
+</div>
+<div id="alert" style="display: none;" class="message">No post found</div>
+<div id="postslist">
+	
+	
+	<article>
+		
+			<div class="post">
+				<h2 class="title" rel="bookmark" title="Hello">
+					<a href="/terrabook/blog/hello/">
+						Hello
+					</a>
+				</h2>
+				<div class="content">
+					Just very first post.
+				</div>
+			</div>
+		
+	</article>
+</div>
+
+<script src="/assets/fuzzysort.min.js"></script>
+<script src="/assets/search.js"></script>
+	</main>
+
+	<footer>
+		Template originally from <a href="//github.com/bramaudi/11ty-humbly" target="_blank"><b>Humbly</b></a> design
+	</footer>
+	
+	<script>
+	function toggle(id){
+		var el = document.getElementById(id);
+		el.classList.toggle('hide');
+	}
+	</script>
+</body>
+</html>

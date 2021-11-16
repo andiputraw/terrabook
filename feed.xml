@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Brama Udi</title>
+  <subtitle>Terrabook website</subtitle>
+  <link href="https://bramaudi.my.id/terrabook" rel="self"/>
+  <link href="https://bramaudi.my.id/terrabook"/>
+  <updated>2021-10-21T16:49:03Z</updated>
+  <id>https://bramaudi.my.id/terrabook</id>
+  <author>
+    <name>Brama Udi</name>
+    <email>bramaudi.al@gmail.com</email>
+  </author>
+</feed>
